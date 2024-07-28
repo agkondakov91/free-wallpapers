@@ -13,6 +13,11 @@
       content="wallpapers, images, swiper, html, css, cover"
     />
     <meta name="author" content="Alexandr Kondakov" />
+    <meta property="og:title" content="Free Wallpapers" />
+    <!-- Добавить ссылку когда опубликую -->
+    <meta property="og:url" content="???" />
+    <meta property="og:image" content="images/OpenGraph.jpg" />
+    <meta property="twitter:card" content="summary_large_image" />
     <link rel="icon" href="./images/icon/favicon.ico" sizes="any" />
     <link rel="icon" href="./images/icon/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/icon/favicon.png" />
@@ -21,5 +26,31 @@
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body></body>
+  <body class="page">
+    <header class="header page__container">
+      <h1 class="header__title">Free Mac Book Wallpapers</h1>
+      <div class="header__info">
+        <p class="header__navigation">Fast forward</p>
+        <div class="header__arrow"></div>
+      </div>
+    </header>
+    <main class="main page__container">
+      <section>
+        <h2 class="main__title">
+          Inspirational images for your favorite device
+        </h2>
+        <!-- Здесь будет слайдер -->
+        <ul class="main__slider">
+          <li>
+            <img
+              class="main__image"
+              src="./images/image1.jpg"
+              alt="a beautiful penguin swimming in the dark blue water"
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">2024 Swiper library for your project</footer>
+  </body>
 </html>

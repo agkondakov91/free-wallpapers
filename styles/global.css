@@ -26,12 +26,6 @@ body,
   list-style: none;
 }
 
-/* Упрощаем работу с изображениями */
-img {
-  display: block;
-  max-width: 100%;
-}
-
 /* Наследуем свойства шрифта для полей ввода */
 input,
 textarea,
@@ -49,7 +43,7 @@ html {
 body {
   min-height: 100%;
   /* Унифицированный интерлиньяж*/
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 /**
