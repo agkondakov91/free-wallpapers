@@ -125,6 +125,20 @@
   object-fit: cover;
 }
 
+.swiper-wrapper {
+  height: fit-content;
+}
+
+.swiper-pagination-bullet {
+  background-color: #fff;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: #fff;
+  font-size: 40px;
+}
+
 @media (width <= 1440px) {
   .main__title {
     font-size: clamp(0.938rem, 0.729rem + 0.93vw, 1.563rem);
@@ -139,6 +153,12 @@
 
   .main__image {
     width: clamp(39.375rem, 12.5rem + 119.44vw, 120rem);
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    color: #fff;
+    font-size: clamp(1.25rem, 0.833rem + 1.85vw, 2.5rem);
   }
 }
 

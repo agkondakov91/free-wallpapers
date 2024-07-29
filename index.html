@@ -22,6 +22,10 @@
     <link rel="icon" href="./images/icon/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/icon/favicon.png" />
     <title>Free Wallpapers</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/style.css" />
@@ -39,18 +43,63 @@
         <h2 class="main__title">
           Inspirational images for your favorite device
         </h2>
-        <!-- Здесь будет слайдер -->
-        <ul class="main__slider">
-          <li>
-            <img
-              class="main__image"
-              src="./images/image1.jpg"
-              alt="a beautiful penguin swimming in the dark blue water"
-            />
-          </li>
-        </ul>
+        <!-- Slider main container -->
+        <div class="main__slider swiper">
+          <ul class="swiper-wrapper">
+            <!-- Slides -->
+            <li class="swiper-slide">
+              <img
+                class="main__image"
+                src="./images/image1.jpg"
+                alt="a beautiful penguin swimming in the dark blue water"
+              />
+            </li>
+            <li class="swiper-slide">
+              <img
+                class="main__image"
+                src="./images/image2.jpg"
+                alt="coniferous forest landscape in fog at dawn"
+              />
+            </li>
+            <li class="swiper-slide">
+              <img
+                class="main__image"
+                src="./images/image3.jpg"
+                alt="a person on a dark background creates light patterns from a bright light source"
+              />
+            </li>
+            <li class="swiper-slide">
+              <img
+                class="main__image"
+                src="./images/image4.jpg"
+                alt="a small, dark silhouette of a man against a starry sky"
+              />
+            </li>
+            <li class="swiper-slide">
+              <img
+                class="main__image"
+                src="./images/image5.jpg"
+                alt="a highway bridge in the morning fog"
+              />
+            </li>
+            <li class="swiper-slide">
+              <img
+                class="main__image"
+                src="./images/image6.jpg"
+                alt="the outline of the city's high-rises in a purple haze"
+              />
+            </li>
+          </ul>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </section>
     </main>
     <footer class="footer">2024 Swiper library for your project</footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
