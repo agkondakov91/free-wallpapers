@@ -152,7 +152,8 @@
   }
 
   .main__image {
-    width: clamp(39.375rem, 12.5rem + 119.44vw, 120rem);
+    /* width: clamp(39.375rem, 12.5rem + 119.44vw, 120rem); */
+    width: clamp(42.5rem, 28.333rem + 62.96vw, 85rem);
   }
 
   .swiper-button-prev::after,
