@@ -4,7 +4,7 @@ _Pet-проект простой SPA с функцией прокрутки и �
 
 ## Screenshot 
 
-![Desctop-img](https://github.com/user-attachments/assets/a38f7187-6954-4bee-90cf-a01fefbca9e2)
+![image 7](https://github.com/user-attachments/assets/1ca76681-eb5e-4f04-9358-a0afdacf79c2)
 
 ## Description 
 
